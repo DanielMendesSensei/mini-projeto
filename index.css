@@ -1,0 +1,84 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+    ul, ol, li {
+        list-style: none;
+    }
+
+/* GERAL */
+
+.exemplo
+{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.primeiro, .segundo, .terceiro
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primeiro
+{
+    background-color: #FAA116;
+    width: 300px;
+    height: 300px;
+    transition: all 0.2s;
+}
+
+/* .primeiro:hover
+{
+    cursor: pointer;
+    background-color: crimson;
+    transition: all 0.2s;
+} */
+
+.segundo
+{
+    background-color: #57c76b;
+    width: 300px;
+    height: 300px;
+    transition: all 0.2s;
+}
+
+/* .segundo:hover
+{
+    cursor: pointer;
+    background-color: rgb(127, 20, 220);
+    transition: all 0.2s;
+} */
+
+.terceiro
+{
+    background-color: #3B97D3;
+    width: 300px;
+    height: 300px; 
+    transition: all 0.2s;
+}
+
+/* .terceiro:hover
+{
+    cursor: pointer;
+    background-color: rgb(184, 204, 4);
+    transition: all 0.2s;
+} */
+
+
+h1{
+    font-size: 36px;
+    transition: 0.4s all linear;
+}
+
+h1:hover{
+    font-size: 40px;
+    transition: 0.4s all linear;
+}
